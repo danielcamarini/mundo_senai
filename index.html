@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="site.js"defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#"><button onclick="navegar('introducao')">Introdução</button></a>
+            <a href="#"><button onclick="navegar('eletrico')">Painel Elétrico</button></a>
+            <a href="#"><button onclick="navegar('cad')">Partida Direta no CADSIMU</button></a>
+            <a href="#"><button onclick="navegar('')"></button></a>
+            <a href="#"><button onclick="navegar('')"></button></a>
+            <a href="#"><button onclick="navegar('')"></button></a>
+        </nav>
+    </header>
+    <main>
+        <section id="introducao" class="active">
+            <h1>Bem-vindo ao nosso projeto de Automação Industrial</h1><br>
+            <p>
+
+                Este site apresenta o desenvolvimento de um projeto de automação industrial baseado em uma partida
+                direta de motor, reunindo conhecimentos de elétrica, CLP, supervisório e montagem de painel elétrico.
+
+                Aqui você poderá conhecer as etapas do projeto, visualizar os circuitos desenvolvidos no CADSIMU, com e
+                sem CLP, além de entender como funciona a integração entre os equipamentos e sistemas utilizados.
+
+                Também serão apresentados conceitos da Pirâmide da Automação e as ferramentas utilizadas para
+                organização e desenvolvimento do projeto, como Trello e Scrum.
+
+                Nosso objetivo é mostrar, de forma simples e prática, como os conhecimentos de elétrica, programação e
+                automação podem ser aplicados na criação de um sistema industrial.
+            </p>
+        </section>
+                <section id="eletrico">
+                    <h1>Painel Elétrico</h1>
+                    <p>
+                        O painel elétrico é responsável por reunir e organizar os principais componentes utilizados no
+                        controle e acionamento do sistema. Neste projeto, ele foi desenvolvido para realizar uma partida
+                        direta de motor, garantindo que os componentes estejam corretamente conectados e organizados.
+
+                        No painel estão presentes elementos de proteção, comando e acionamento, permitindo controlar o
+                        funcionamento do motor de forma segura e adequada.
+
+                        A montagem do painel também possibilita visualizar na prática como os componentes de um circuito
+                        elétrico industrial são organizados e como se relacionam entre si.
+
+                        Navegue pela página para conhecer os componentes do painel e entender sua função dentro do
+                        projeto.
+                    </p>
+                </section>
+                    <section id="cad">
+                        <h1>Partida Direta com CLP</h1>     
+                        <p>A partida direta com CLP é um sistema utilizado para realizar o acionamento e controle de um motor elétrico por meio de um Controlador Lógico Programável (CLP).
+                         Neste projeto, o CLP recebe os sinais dos dispositivos de comando e, de acordo com a lógica programada, controla o acionamento do motor. Dessa forma, o sistema permite
+                         automatizar o processo, tornando o comando mais organizado e facilitando futuras alterações na programação.
+                         A partida direta é composta por elementos de comando, proteção e acionamento, que trabalham em conjunto com o CLP para controlar o 
+                         funcionamento do motor.
+                         Explore esta seção para conhecer o circuito, a programação do CLP e o funcionamento da partida 
+                         direta na prática.</p>
+                        <div class="cad_clp">
+
+                            <img src="./img/com clp.png" alt="">
+                        </div>
+                    </section>
+    </main>
+</body>
+
+</html>
